@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right,red,yellow);
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(141, 13, 13, 0.5);
+    justify-content: center;
+    align-items: center;
+    width:450px;
+    margin: 200px auto;
+
+
+}
+h1{
+    letter-spacing:1px;
+    font-style: italic;
+    linear-gradient:(125deg,);
+    color:aliceblue
+}
+.inner button{
+    margin:20px;
+    padding: 2px;
+}
+button{
+    height: 30px;
+    width: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background:linear-gradient(90deg,yellow,red);
+    border-radius: 30px;
+    font-weight: bold;
+    border:none;
+    cursor:pointer;
+    
+}
+button:hover{
+    background: linear-gradient(90deg,red,yellow);
+}
+
+.inner input{
+    height: 20px;
+    width: 200px;
+    background-color:rgb(0,0,0,.5);
+    border: none;
+    color: aliceblue;
+}
